@@ -2,5 +2,5 @@ Facebook Tricks
 ================
 
 
-## Wish Birthday Thanks
-## Delete likes, comments, posts, messages
+* Wish Birthday Thanks
+* Delete likes, comments, posts, messages (also: @IonicaBizau)
