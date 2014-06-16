@@ -8,15 +8,13 @@ Useful Facebook scripts
  1. Open the photo.
  2. Open the popup with the people that liked the photo.
  3. If needed, click `More` button to load all the users.
- 4. Then open the browser developer tools where you will run the following script:
+ 4. Then open the browser developer tools where you will run the following script, after including jQuery on page (just paste and run [this code](http://code.jquery.com/jquery-1.11.1.min.js)):
 
 ```js
-ul = document.getElementsByTagName("ul")
-ul = ul[ul.length - 1]
-a = ul.querySelectorAll("li a[data-hovercard]") 
+$all = $("div:contains('People Who Like This') ul > li")
 f = [];
-for (var i = 0; i < a.length; ++i) {
-  if (!a[i].innerText) continue; f.push(a[i].innerText);
+for (var i = 0; i < $all.length; ++i) {
+  f.push($("a[data-gt]", $all[i]).text())
 }
 ```
 
