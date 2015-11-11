@@ -1,6 +1,6 @@
 {
   "name": "facebook-scripts",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A set of scripts to make your Facebook experience smoother.",
   "main": "index.js",
   "scripts": {
@@ -52,6 +52,7 @@
       {
         "p": "After running the script above, `f` will be an array with the names of the users that liked the opened photo."
       }
-    ]
+    ],
+    "license_year": "2014\n"
   }
 }
