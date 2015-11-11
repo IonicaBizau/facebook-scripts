@@ -1,0 +1,57 @@
+{
+  "name": "facebook-scripts",
+  "version": "1.1.0",
+  "description": "A set of scripts to make your Facebook experience smoother.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/facebook-scripts.git"
+  },
+  "keywords": [
+    "facebook",
+    "scripts"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/facebook-scripts/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/facebook-scripts#readme",
+  "blah": {
+    "title": "Facebook Scripts",
+    "show_docs": false,
+    "description": [
+      {
+        "h2": "Friends that liked a photo"
+      },
+      {
+        "ol": [
+          "Open the photo.",
+          "Open the popup with the people that liked the photo.",
+          "If needed, click `More` button to load all the users.",
+          [
+            "Then open the browser developer tools where you will run the following script, after including jQuery on page (just paste and run [this code](http://code.jquery.com/jquery-1.11.1.min.js)):",
+            {
+              "code": {
+                "language": "js",
+                "content": [
+                  "$all = $(\"div:contains('People Who Like This') ul > li\")",
+                  "f = [];",
+                  "for (var i = 0; i < $all.length; ++i) {",
+                  "  f.push($(\"a[data-gt]\", $all[i]).text())",
+                  "}"
+                ]
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "p": "After running the script above, `f` will be an array with the names of the users that liked the opened photo."
+      }
+    ]
+  }
+}
