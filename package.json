@@ -1,6 +1,6 @@
 {
   "name": "facebook-scripts",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "A set of scripts to make your Facebook experience smoother.",
   "main": "index.js",
   "scripts": {
