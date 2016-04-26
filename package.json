@@ -1,8 +1,8 @@
 {
   "name": "facebook-scripts",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A set of scripts to make your Facebook experience smoother.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -54,5 +54,16 @@
       }
     ],
     "license_year": "2014\n"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
