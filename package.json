@@ -1,6 +1,6 @@
 {
   "name": "facebook-scripts",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A set of scripts to make your Facebook experience smoother.",
   "main": "lib/index.js",
   "scripts": {
@@ -59,6 +59,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
