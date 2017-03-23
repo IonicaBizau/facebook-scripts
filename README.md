@@ -19,6 +19,7 @@
     }
     ```
 
+
 After running the script above, `f` will be an array with the names of the users that liked the opened photo.
 
 
