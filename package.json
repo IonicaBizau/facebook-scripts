@@ -1,6 +1,6 @@
 {
   "name": "facebook-scripts",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "description": "A set of scripts to make your Facebook experience smoother.",
   "main": "lib/index.js",
   "scripts": {
@@ -66,6 +66,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
